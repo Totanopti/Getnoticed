@@ -11,7 +11,7 @@ app = FastAPI(title="Amazon FBA Analyzer API")
 
 # API keys configuration (use environment variables in production)
 keepa_api_key = '7hmcbb7q1m72lsrnv8m7ka81eum391tiv37g7qgue731e54f02nacqeo05uq8qrs'
-openai_api_key = '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'
+openai_api_key = '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'
 
 # Initialize APIs
 keepa_api = keepa.Keepa(keepa_api_key)
